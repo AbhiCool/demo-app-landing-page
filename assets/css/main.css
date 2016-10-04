@@ -1,0 +1,134 @@
+@import url('../fonts/AkzidenzGrotesk-Bold/AkzidenzGrotesk-Bold.css');
+body{
+	background: url('../img/landing-bg.png') no-repeat center center fixed;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.content{
+	margin-top: 50px;
+}
+.mobileMockup{
+	width: 250px;
+}
+.productName{
+	font-family: "AkzidenzGrotesk-Bold", sans-serif;
+	color: rgb(244,244,244);
+	font-size: 50px;
+	text-align: left;
+}
+.subTitle{
+	font-family: 'Roboto', sans-serif;
+	color: rgb(244,244,244);
+	font-size: 22px;
+	text-align: left;
+}
+.subContent{
+	font-family: 'Roboto', sans-serif;
+	color: rgb(244,244,244);
+	font-size: 13px;
+	text-align: left;
+}
+.contentTop{
+	margin-top: 30px;
+}
+footer{
+	position:fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.44);
+}
+.copyright{
+	font-family: 'Roboto', sans-serif;
+	color: rgb(20,20,20);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0;
+}
+.copyright a{
+	color: rgb(20,20,20);
+	text-decoration: none;
+}
+.copyright a:hover{
+	text-decoration: underline;
+}
+.mobile-slider-container{
+	left: 91px;
+	position: absolute;
+	top: 38px;
+	width: 210px;
+}
+.mobile-slider-container .carousel-control.left {
+    background-image: none;
+}
+.mobile-slider-container .carousel-control.right {
+    background-image: none;
+}
+.glass{
+	position: absolute;
+	left: 67px;
+	top: 0;
+	z-index: 2;
+}
+.socialList{
+	display: "";
+	margin-top: 5px;
+	text-align: left;
+}
+.alignFbButton{
+	float: left;
+	margin-left: 2px;
+}
+.alignTwitterButton{
+	float: left;
+	margin-left: 10px;
+}
+.love{
+	color: rgb(201, 33, 35);
+}
+@media screen and (min-height: 735px) {
+	footer{
+		position:fixed!important;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.mobile-slider-container {
+	    left: 57px;
+	}
+	.glass{
+		left: 33px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.productName, .subTitle, .subContent{
+		text-align: center;
+	}
+	.content {
+	    margin-top: 0px;
+	}
+	.socialList{
+		display: table;
+		margin: 5px auto;
+		text-align: center;
+	}
+	.mobile-slider-container {
+	    left: 271px;
+	}
+	.glass {
+	    left: 247px;
+	}
+	footer{
+		position:relative;
+	}
+}
+@media screen and (max-width: 767px) {
+	.productName{
+		font-size: 40px;
+	}
+	.mobile-slider-container, .glass{
+	    left: 0px;
+	    right: 0;
+	    margin:0 auto;
+	}
+}
