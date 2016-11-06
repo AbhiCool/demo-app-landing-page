@@ -21,5 +21,8 @@ $(window).on('load resize', function() {
 	valueOfMarginTop = 0;
   }
   $('.container').css({'margin-top':valueOfMarginTop});
+  
+  //added to fadeout loader and remove it
+  $('#preloader').fadeOut('slow',function(){$(this).remove();});
 });
 
