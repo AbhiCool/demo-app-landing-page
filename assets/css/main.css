@@ -6,9 +6,6 @@ body{
 	-o-background-size: cover;
 	background-size: cover;
 }
-.content{
-	margin-top: 50px;
-}
 .mobileMockup{
 	width: 250px;
 }
@@ -103,9 +100,6 @@ footer{
 @media screen and (max-width: 991px) {
 	.productName, .subTitle, .subContent{
 		text-align: center;
-	}
-	.content {
-	    margin-top: 0px;
 	}
 	.socialList{
 		display: table;

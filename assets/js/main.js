@@ -12,7 +12,7 @@
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
 /*script for centering div to the center of page*/
-$(window).resize(function() {
+$(window).on('load resize', function() {
   var windowHeight = $(window).outerHeight(true);
   var containerHeight = $('.container').outerHeight(true);
 
