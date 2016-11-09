@@ -51,10 +51,10 @@ footer{
 	text-decoration: underline;
 }
 .mobile-slider-container{
-	left: 91px;
+	left: 76px;
 	position: absolute;
 	top: 38px;
-	width: 210px;
+	width: 210px;  
 }
 .mobile-slider-container .carousel-control.left {
     background-image: none;
@@ -64,7 +64,7 @@ footer{
 }
 .glass{
 	position: absolute;
-	left: 67px;
+	left: 53px;
 	top: 0;
 	z-index: 2;
 }
@@ -97,6 +97,9 @@ div#preloader{
 .hide-mobile-slider{
     display:none;
 }
+#mobile-animation{
+    position: relative;
+}
 @media screen and (min-height: 735px) {
 	footer{
 		position:fixed!important;
@@ -104,10 +107,10 @@ div#preloader{
 }
 @media screen and (max-width: 1200px) {
 	.mobile-slider-container {
-	    left: 57px;
+	    left: 43px;
 	}
 	.glass{
-		left: 33px;
+		left: 20px;
 	}
 }
 @media screen and (max-width: 991px) {
@@ -120,10 +123,10 @@ div#preloader{
 		text-align: center;
 	}
 	.mobile-slider-container {
-	    left: 271px;
+	    left: 256px;
 	}
 	.glass {
-	    left: 247px;
+	    left: 233px;
 	}
 	footer{
 		position:relative;
