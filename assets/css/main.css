@@ -94,6 +94,9 @@ div#preloader{
 	overflow: visible; 
 	background: #333 url('../img/loading.gif') no-repeat center center; 
 }
+.hide-mobile-slider{
+    display:none;
+}
 @media screen and (min-height: 735px) {
 	footer{
 		position:fixed!important;

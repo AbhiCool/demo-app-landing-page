@@ -22,7 +22,15 @@ $(window).on('load resize', function() {
   }
   $('.container').css({'margin-top':valueOfMarginTop});
   
-  //added to fadeout loader and remove it
-  $('#preloader').fadeOut('slow',function(){$(this).remove();});
+  /*added to fadeout loader and remove it*/
+  $('#preloader').fadeOut('slow',function(){
+      $(this).remove();
+  });
+  /*animation effects on mobile and mobile screen*/
+  $('#mobile-animation').addClass('animated fadeInRight');
+  $('#mobile-animation').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+      
+      $('.mobile-slider-container').show().addClass('animated fadeIn');
+  });
 });
 
