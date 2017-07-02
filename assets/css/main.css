@@ -84,52 +84,14 @@ footer{
 .love{
 	color: rgb(201, 33, 35);
 }
-/*div#preloader{ 
-	position: fixed; 
-	left: 0; 
-	top: 0; 
-	z-index: 999; 
-	width: 100%; 
-	height: 100%; 
-	overflow: visible; 
-	background: #333 url('../img/loading.gif') no-repeat center center; 
-}*/
-/*preloader css*/
-#overlay{
-  position:fixed;
-  z-index:99999;
-  top:0;
-  left:0;
-  bottom:0;
-  right:0;
-  background:rgba(0,0,0,1);
-  transition: 1s 0.4s;
-}
-#progress{
-  height:1px;
-  background:#fff;
-  position:absolute;
-  width:0;
-  top:50%;
-  transition: 1s;
-}
-#progstat{
-  font-size:0.7em;
-  letter-spacing: 3px;
-  position:absolute;
-  top:50%;
-  margin-top:-40px;
-  width:100%;
-  text-align:center;
-  color:#fff;
-}
-/*End of preoader css*/
 .hide-mobile-slider{
     display:none;
 }
 #mobile-animation{
     position: relative;
+    opacity: 0;
 }
+
 @media screen and (min-height: 735px) {
 	footer{
 		position:fixed!important;
